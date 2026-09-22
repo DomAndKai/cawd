@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-This repository currently contains the public-facing materials for Roomie, with only `README.md` and project metadata checked in. As implementation grows, keep landing page source in `src/` or `app/`, static assets in `public/` or `assets/`, and policy pages such as privacy and terms in clearly named routes or documents. Place tests beside the code they cover or in a top-level `tests/` directory, and avoid committing generated output such as `dist/`, `.next/`, `coverage/`, or `node_modules/`.
+This repository contains the public-facing static site for Cawd, including the landing page, privacy policy, and visual assets. Keep root pages such as `index.html` and `privacy.html` simple and GitHub Pages-friendly. Store brand images, screenshots, and icons in `assets/`. Place tests beside the code they cover or in a top-level `tests/` directory if a test setup is added, and avoid committing generated output such as `dist/`, `.next/`, `coverage/`, or `node_modules/`.
 
 ## Build, Test, and Development Commands
 
@@ -22,7 +22,7 @@ If the site remains static HTML/CSS, include the exact local preview command, su
 
 ## Coding Style & Naming Conventions
 
-Use consistent two-space indentation for JavaScript, TypeScript, JSON, CSS, and Markdown. Prefer descriptive, product-oriented names such as `PrivacyPolicy`, `HeroSection`, or `roomie-feature-card` over abbreviations. Keep copy concise and user-facing; this repository represents public Roomie content, so avoid placeholder text in committed pages. If formatting or linting tools are introduced, make them runnable through `npm run format` and `npm run lint`.
+Use consistent two-space indentation for JavaScript, TypeScript, JSON, CSS, HTML, and Markdown. Prefer descriptive, product-oriented names such as `PrivacyPolicy`, `HeroSection`, or `cawd-feature-card` over abbreviations. Keep copy concise and user-facing; this repository represents public Cawd content, so avoid placeholder text in committed pages. If formatting or linting tools are introduced, make them runnable through `npm run format` and `npm run lint`.
 
 ## Testing Guidelines
 

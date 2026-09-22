@@ -3,178 +3,175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Roomie helps roommates manage rent, utilities, chores, and house coordination in one calm place. Anonymous pokes included.">
-  <meta property="og:title" content="Roomie">
-  <meta property="og:description" content="Rent, utilities, chores, and house coordination in one calm place. Anonymous pokes included.">
-  <title>Roomie | Shared Home Coordination</title>
-  <link rel="icon" href="assets/roomie-mark.svg" type="image/svg+xml">
+  <meta name="description" content="Cawd helps roommates remember chores, bills, rent, and house stuff without turning every reminder into a group chat problem.">
+  <meta property="og:title" content="Cawd">
+  <meta property="og:description" content="Life with roommates, remembered. Chores, smart pay, fair rotations, and anonymous caws.">
+  <title>Cawd | Life with roommates, remembered</title>
+  <link rel="icon" href="assets/cawd-app-icon.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav page-shell" aria-label="Main navigation">
-      <a class="brand" href="index.html" aria-label="Roomie home">
-        <img src="assets/roomie-mark.svg" alt="">
-        <span>Roomie</span>
+      <a class="brand" href="index.html" aria-label="Cawd home">
+        <img src="assets/cawd-app-icon.png" alt="">
+        <span>cawd</span>
       </a>
       <div class="nav-links">
-        <a href="#ios">iOS app</a>
-        <a href="#web">Web app</a>
-        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:kaibottombot@gmail.com?subject=Cawd%20iOS%20launch%20updates">iOS app</a>
+        <a href="#features">Features</a>
+        <a href="privacy.html">Privacy</a>
         <a href="#support">Support</a>
       </div>
     </nav>
   </header>
 
   <main>
-    <div class="page-shell hero">
-      <div>
-        <p class="eyebrow">Shared home, less friction</p>
-        <h1>Keep your home running smoothly.</h1>
-        <p class="hero-copy">Roomie keeps rent, utilities, chores, and everyday house coordination in one calm place for roommates, with anonymous pokes for the moments that need a tiny nudge.</p>
+    <section class="hero page-shell">
+      <div class="hero-copy-block">
+        <p class="eyebrow">For the flock you live with</p>
+        <h1>Life with roommates,<br>remembered.</h1>
+        <p class="hero-copy">Cawd keeps chores, rent, utilities, and house reminders in one place, with smart pay links and anonymous caws when someone needs a nudge.</p>
         <div class="actions">
-          <a class="button" href="#ios">Get the iOS app</a>
-          <a class="button secondary" href="#web">Open the web app</a>
+          <a class="button" href="mailto:kaibottombot@gmail.com?subject=Cawd%20iOS%20launch%20updates">Get Cawd for iOS</a>
+          <a class="button secondary" href="#feedback">Share feedback</a>
         </div>
       </div>
 
-      <div class="phone-panel" aria-label="Roomie app preview">
-        <div class="screen">
-          <div class="screen-top">
-            <div>
-              <strong>Oak Street</strong>
-              <div class="house-label">4 roommates</div>
-            </div>
-            <div class="mini-logo">R</div>
-          </div>
-          <div class="task-card">
-            <div class="task-head">
-              <h3>Rent</h3>
-              <span class="pill done">Paid</span>
-            </div>
-            <p>$3,200 split evenly. Next payment opens Oct 1.</p>
-          </div>
-          <div class="task-card">
-            <div class="task-head">
-              <h3>Utilities</h3>
-              <span class="pill">Due Friday</span>
-            </div>
-            <p>Internet and electricity are ready for review.</p>
-          </div>
-          <div class="task-card">
-            <div class="task-head">
-              <h3>Chores</h3>
-              <span class="pill">2 today</span>
-            </div>
-            <p>Trash, counters, and recycling stay visible without another group text.</p>
-            <div class="split-row" aria-label="Roommate assignments">
-              <div class="person">Sam</div>
-              <div class="person">Alex</div>
-              <div class="person">Mia</div>
-            </div>
-          </div>
-          <div class="task-card">
-            <div class="task-head">
-              <h3>Anonymous poke</h3>
-              <span class="pill">Sent</span>
-            </div>
-            <p>A gentle nudge without making it a whole thing.</p>
-          </div>
+      <div class="hero-visual" aria-label="Cawd app preview">
+        <img class="hero-mascot" src="assets/cawd-mascot-checklist.png" alt="Cawd crow mascot holding a chore checklist">
+        <div class="screen-showcase">
+          <img class="phone-shot hero-shot home-shot" src="assets/cawd-home.png" alt="Cawd home screen showing chores due and bills owed">
+          <img class="phone-shot hero-shot chores-shot" src="assets/cawd-chores.png" alt="Cawd chores screen with cover and caw actions">
+          <img class="phone-shot hero-shot bills-shot" src="assets/cawd-bills.png" alt="Cawd bills screen showing rent and utility tracking">
         </div>
       </div>
-    </div>
+    </section>
 
-    <section class="page-shell" id="features">
-      <div class="section-intro">
-        <h2>One place for the stuff roommates actually share.</h2>
-        <p>Roomie is built for the recurring details that make a household feel either easy or exhausting.</p>
+    <section class="page-shell highlight-section" id="features">
+      <article class="highlight-card reminders-card">
+        <span class="feature-kicker">Due today</span>
+        <h3>Cawd remembers before the group chat does.</h3>
+        <p>Chores, rent, and bills surface when they are due, with reminders for the stuff that needs attention today.</p>
+        <div class="reminder-preview" aria-hidden="true">
+          <span>Rent due today</span>
+          <span>Trash cans at 5 PM</span>
+        </div>
+      </article>
+      <article class="highlight-card rotation-card">
+        <span class="feature-kicker">Fair rotations</span>
+        <h3>Cover once. The next turn swaps automatically.</h3>
+        <p>If Ryan covers Dom, Cawd keeps track and swaps the next turn so the rotation stays fair.</p>
+        <div class="rotation-preview" aria-hidden="true">
+          <div class="rotation-stage">
+            <div class="diagram-label">Original order</div>
+            <div class="turn-row">
+              <span class="covering">Ryan</span>
+              <span class="covered">Dom</span>
+              <span>Kai</span>
+            </div>
+          </div>
+          <div class="swap-note">
+            <span>Ryan covers Dom</span>
+          </div>
+          <div class="rotation-stage">
+            <div class="diagram-label">Next rotation</div>
+            <div class="turn-row swapped">
+              <span class="next-up">Dom</span>
+              <span class="covered">Ryan</span>
+              <span>Kai</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="highlight-card pay-card">
+        <span class="feature-kicker">Smart pay</span>
+        <h3>Tap pay. Land in Venmo.</h3>
+        <p>With payment info added, Cawd can open Venmo with the person, note, and amount ready. Zelle details stay one tap away.</p>
+        <div class="pay-preview" aria-hidden="true">
+          <strong>Pay $66.67</strong>
+          <span>@dom_venmo12</span>
+        </div>
+      </article>
+      <article class="highlight-card caw-card">
+        <img src="assets/cawd-sideeye.png" alt="">
+        <span class="feature-kicker">Anonymous caws</span>
+        <h3>A nudge without the callout.</h3>
+        <p>Caw at a roommate for chores, rent, or bills. They get the reminder; the group chat stays out of it.</p>
+      </article>
+    </section>
+
+    <section class="page-shell split-section">
+      <div class="section-copy">
+        <p class="eyebrow">House memory</p>
+        <h2>The stuff roommates forget, handled before it gets awkward.</h2>
+        <p>Cawd remembers who owes what, whose turn is next, and which chores are coming up, so your house does not have to run on screenshots and passive-aggressive texts.</p>
       </div>
       <div class="feature-grid">
         <article class="feature-card">
-          <div class="icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24">
-              <path d="M12 3v18"/>
-              <path d="M17 7.5c-.9-1-2.4-1.6-4.1-1.6-2.4 0-4.3 1.2-4.3 3s1.5 2.5 3.9 3c2.6.5 4.3 1.1 4.3 3.2s-2 3-4.5 3c-1.9 0-3.7-.7-4.8-1.9"/>
-            </svg>
-          </div>
-          <h3>Rent and utilities</h3>
-          <p>Track what is due, who has paid, and which bills still need attention.</p>
+          <span class="feature-kicker">Chores</span>
+          <h3>Fair rotations</h3>
+          <p>Set chores once, assign a frequency, and Cawd cycles through the flock so everyone gets a turn.</p>
         </article>
         <article class="feature-card">
-          <div class="icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24">
-              <rect x="4" y="4" width="16" height="16" rx="4"/>
-              <path d="M7.5 12.5l3 3L17 8"/>
-            </svg>
-          </div>
-          <h3>Chores</h3>
-          <p>Assign tasks, rotate responsibilities, and keep the shared list visible.</p>
+          <span class="feature-kicker">Cover swaps</span>
+          <h3>Cover now, balance later</h3>
+          <p>If you cover a roommate's chore, Cawd tracks it and swaps the next rotation to keep things fair.</p>
         </article>
         <article class="feature-card">
-          <div class="icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24">
-              <rect x="4" y="5" width="16" height="12" rx="5"/>
-              <path d="M9 17l-2 4 5.5-4"/>
-              <path d="M12 8v4"/>
-              <path d="M12 14h.01"/>
-            </svg>
-          </div>
-          <h3>Anonymous pokes</h3>
-          <p>Nudge anyone about house stuff without turning it into a personal callout.</p>
-        </article>
-        <article class="feature-card">
-          <div class="icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24">
-              <path d="M4 12l8-7 8 7"/>
-              <path d="M6 11v8h12v-8"/>
-              <path d="M9 19v-5h6v5"/>
-            </svg>
-          </div>
-          <h3>House coordination</h3>
-          <p>Keep reminders, updates, and shared decisions out of scattered chats.</p>
+          <span class="feature-kicker">Caws</span>
+          <h3>Nudge without the group chat</h3>
+          <p>Caw at someone anonymously when rent, bills, or chores need attention. They get the reminder without the public callout.</p>
         </article>
       </div>
     </section>
 
-    <section class="page-shell">
-      <div class="section-intro">
-        <h2>Use Roomie wherever the house needs it.</h2>
+    <section class="page-shell pay-section">
+      <div class="pay-visual">
+        <img class="phone-shot pay-shot" src="assets/cawd-smart-pay.png" alt="Cawd smart pay sheet opening Venmo with amount and recipient filled in">
+        <img class="phone-shot venmo-shot" src="assets/cawd-venmo-pay.png" alt="Venmo payment screen opened from Cawd with recipient and amount ready">
       </div>
-      <div class="link-grid">
-        <a class="link-card" id="ios" href="#support">
-          <h3>iOS app</h3>
-          <p>Roomie for iPhone is the main mobile experience for roommates on the go. Contact support for launch updates.</p>
-        </a>
-        <a class="link-card" id="web" href="#support">
-          <h3>Web app</h3>
-          <p>Open Roomie from a browser for quick house check-ins, bill reviews, and coordination from a laptop.</p>
-        </a>
-        <a class="link-card" href="privacy.html">
-          <h3>Privacy Policy</h3>
-          <p>Read how Roomie handles account data, shared house information, optional payment handles, and deletion requests.</p>
-        </a>
-        <a class="link-card" href="#support">
-          <h3>Support</h3>
-          <p>Questions, deletion requests, and account help all start with the support contact below.</p>
-        </a>
+      <div class="section-copy">
+        <p class="eyebrow">Smart pay</p>
+        <h2>Paying rent or utilities should not be a scavenger hunt.</h2>
+        <p>When roommates add their Venmo or Zelle info, Cawd can open the right payment app with the amount and recipient ready to go. Tap pay, confirm, and Cawd keeps the bill status moving.</p>
+        <div class="mini-list">
+          <div>
+            <strong>Venmo ready</strong>
+            <span>Recipient, note, and amount can be prefilled.</span>
+          </div>
+          <div>
+            <strong>Zelle info nearby</strong>
+            <span>Copy the right details without digging through old messages.</span>
+          </div>
+          <div>
+            <strong>No payment passwords</strong>
+            <span>Cawd sends you to Venmo or Zelle; it does not process payments itself.</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="page-shell" id="support">
+    <section class="page-shell support-section" id="support">
       <div class="support-band">
+        <img src="assets/cawd-sideeye.png" alt="Cawd crow mascot giving a side-eye caw">
         <div>
           <p class="eyebrow">Support</p>
-          <h2>Need help with Roomie?</h2>
-          <p>For account questions, privacy requests, or product support, contact the Roomie team.</p>
+          <h2>Questions, bugs, or account help?</h2>
+          <p>Use the feedback board for product ideas and bug reports. For privacy, account deletion help, or iOS launch questions, email support.</p>
+          <div class="actions">
+            <a class="button" id="feedback" href="https://roomieapp.userjot.com/?cursor=1&amp;order=top&amp;limit=10">Open feedback board</a>
+            <a class="button secondary" href="mailto:kaibottombot@gmail.com">Email support</a>
+            <a class="button secondary" href="privacy.html">Privacy policy</a>
+          </div>
         </div>
-        <a class="button" href="mailto:kaibottombot@gmail.com">Email support</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="page-shell footer-inner">
-      <span>&copy; 2026 Roomie. All rights reserved.</span>
+      <span>&copy; 2026 Cawd. All rights reserved.</span>
       <a href="privacy.html">Privacy Policy</a>
     </div>
   </footer>

@@ -1,5 +1,6 @@
-# Roomie-Landing
-Landing page, privacy policy, terms, and public info for Roomie
+# Cawd Landing
+
+Landing page, privacy policy, and public info for Cawd.
 
 ## Local preview
 
