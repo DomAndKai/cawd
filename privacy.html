@@ -18,7 +18,7 @@
         <span>cawd</span>
       </a>
       <div class="nav-links">
-        <a href="mailto:kaibottombot@gmail.com?subject=Cawd%20iOS%20launch%20updates">iOS app</a>
+        <a href="https://apps.apple.com/us/app/cawd/id6812052569">iOS app</a>
         <a href="index.html#features">Features</a>
         <a href="privacy.html" aria-current="page">Privacy</a>
         <a href="index.html#support">Support</a>
@@ -29,7 +29,7 @@
   <main class="page-shell policy-main">
     <p class="eyebrow">Cawd Privacy Policy</p>
     <h1>Privacy Policy</h1>
-    <p class="policy-meta">Last updated: September 21, 2026</p>
+    <p class="policy-meta">Last updated: September 28, 2026</p>
 
     <div class="policy-content">
       <section>
@@ -41,12 +41,13 @@
         <h2>Information We Collect</h2>
         <p>Cawd collects the information needed to create and operate your account, including your username, email address, Firebase authentication identifiers, optional profile photo if you add one, and roost membership. If you create a roost, Cawd stores the roost name and roost code. Cawd does not ask for phone numbers during account signup.</p>
         <p>Cawd also stores the content and activity you add inside a roost, including chat messages, chores, chore frequency, chore assignments, cover-and-complete activity, rent tracker settings, rent splits, due dates, utility bills, paid or unpaid status, anonymous caw activity, in-app notifications, and general house coordination details.</p>
+        <p>If you submit feedback in the app, Cawd may collect your feedback message, reply email, Firebase user ID, username, account email, roost ID, roost name, app version, platform, feedback status, and submission time.</p>
       </section>
 
       <section>
         <h2>Firebase and Authentication</h2>
         <p>Cawd uses Firebase as its backend. Cawd uses Firebase Authentication to create accounts and sign users in with email and password, Google Sign-In, or Sign in with Apple. Firebase handles authentication credentials, including passwords for email/password accounts. Cawd does not store your plain-text password.</p>
-        <p>Cawd uses Cloud Firestore to store and sync app data, including account information, roost data, chat messages, chores, bills, payment status, caws, and notifications. Firebase may process technical information such as IP address, user agent, device information, and authentication activity to provide security, prevent abuse, and operate these services.</p>
+        <p>Cawd uses Cloud Firestore to store and sync app data, including account information, roost data, chat messages, chores, bills, payment status, caws, feedback, and notifications. Cawd uses Firebase Storage for profile photos, Firebase Messaging for push notifications, and Firebase Cloud Functions for server-side tasks such as feedback submission and account deletion. Firebase may process technical information such as IP address, user agent, device information, and authentication activity to provide security, prevent abuse, and operate these services.</p>
       </section>
 
       <section>
@@ -58,7 +59,13 @@
       <section>
         <h2>Caws and Notifications</h2>
         <p>Roost members can caw at another member to remind them about a chore or other house responsibility. Caws are designed to be anonymous to other roost members, but Cawd may retain technical records needed to deliver the notification, show it in the in-app notifications tab, prevent abuse, and operate the service.</p>
-        <p>Cawd provides an in-app notifications tab on iOS, and plans to provide one on web when the web app is available. If you enable iOS notifications, Cawd may send push notifications through Apple Push Notification service for caws, chores, bills, rent due dates, and other house activity. Cawd does not currently plan to send browser push notifications for the web app.</p>
+        <p>Cawd provides an in-app notifications tab on iOS, and plans to provide one on web when the web app is available. If you enable iOS notifications, Cawd may send push notifications through Apple Push Notification service and Firebase Messaging for caws, chores, bills, rent due dates, and other house activity. Cawd stores notification tokens connected to your user account so notifications can be delivered and managed. Cawd does not currently plan to send browser push notifications for the web app.</p>
+      </section>
+
+      <section>
+        <h2>Profile Photos and Permissions</h2>
+        <p>If you choose to add a profile photo, Cawd requests access to your photo library so you can select an image. Profile photos are uploaded to Firebase Storage and the photo URL is saved in your user profile and roost member record so other roost members can see it.</p>
+        <p>Cawd does not access contacts, precise location, microphone, camera, health data, advertising identifiers, or IDFA tracking data based on the current app design.</p>
       </section>
 
       <section>
@@ -68,29 +75,29 @@
       </section>
 
       <section>
-        <h2>Feedback Board</h2>
-        <p>Cawd links to a feedback board hosted by UserJot. If you submit feedback, vote, or interact with that board, the information you provide may be handled by UserJot according to its own terms and privacy practices. Do not submit sensitive personal information through the feedback board.</p>
+        <h2>How We Use Information</h2>
+        <p>We use information to provide Cawd features, create and manage accounts, authenticate users, sync roost data, show house activity, track chores and bills, support smart pay links, send relevant notifications, troubleshoot issues, prevent misuse, improve the product, review feedback, and respond to support requests.</p>
       </section>
 
       <section>
-        <h2>How We Use Information</h2>
-        <p>We use information to provide Cawd features, create and manage accounts, authenticate users, sync roost data, show house activity, track chores and bills, support smart pay links, send relevant notifications, troubleshoot issues, prevent misuse, improve the product, and respond to support requests.</p>
+        <h2>Analytics</h2>
+        <p>Cawd uses PostHog to understand app usage and improve the product. PostHog may collect usage events, device or app information, platform information, timestamps, and identifiers that may be linked to your account depending on how the app is configured. Cawd does not use PostHog for third-party advertising or cross-app tracking.</p>
       </section>
 
       <section>
         <h2>No Sale of Personal Data</h2>
-        <p>Cawd does not sell your personal data. Cawd does not currently use PostHog, Firebase Crashlytics, or similar analytics or crash reporting tools.</p>
+        <p>Cawd does not sell your personal data. Cawd does not currently use Firebase Analytics, Firebase Crashlytics, Google Analytics, IDFA, or advertising-data collection based on the current app design.</p>
       </section>
 
       <section>
         <h2>Account Deletion</h2>
-        <p>You can initiate account deletion from the account menu in Cawd. You can also contact <a href="mailto:kaibottombot@gmail.com">kaibottombot@gmail.com</a> for help with deletion. Deletion requests may remove or de-identify your account information, subject to information Cawd needs to retain for legal, security, fraud prevention, or legitimate operational reasons.</p>
-        <p>Because Cawd is built around shared roost records, some content you added to a roost may remain visible to other roost members if it is needed to preserve the household record, such as existing chat messages, chores, bills, payment status, or rent history.</p>
+        <p>You can initiate account deletion from the account menu in Cawd. You can also contact <a href="mailto:cawdsupport@gmail.com">cawdsupport@gmail.com</a> for help with deletion. Account deletion runs through a Firebase Cloud Function and removes your Firebase Authentication account, Firestore user profile, username reservation, profile photo file, push notification token records, active roost member entries, and your user ID from roost member lists. Payment handles stored in active roost membership records are removed when those membership records are removed.</p>
+        <p>Shared roost data is not deleted during account deletion. Chores, bills, rent records, chat messages, feedback submissions, and other shared house history may remain so other roost members do not lose shared records. Some remaining shared records may still contain your previous display name, user ID, or historical action data.</p>
       </section>
 
       <section>
         <h2>Contact</h2>
-        <p>For privacy questions, support requests, or account deletion, email <a href="mailto:kaibottombot@gmail.com">kaibottombot@gmail.com</a>.</p>
+        <p>For privacy questions, support requests, or account deletion, email <a href="mailto:cawdsupport@gmail.com">cawdsupport@gmail.com</a>.</p>
       </section>
     </div>
   </main>
